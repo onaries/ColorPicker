@@ -46,7 +46,7 @@ public class ColorPickerView extends LinearLayout implements ColorObservable {
         float density = getResources().getDisplayMetrics().density;
         int margin = (int) (8 * density);
         sliderMargin = 2 * margin;
-        sliderHeight = (int) (24 * density);
+        sliderHeight = (int) (48 * density);
 
         {
             LinearLayout.LayoutParams params = new LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
